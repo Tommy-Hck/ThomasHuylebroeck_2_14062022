@@ -1,14 +1,12 @@
 <!doctype html>
-<!-- W3C error ajouter fr -->
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
 	<!-- suppression balise keywords -->
     <meta name="keywords" content="">
-	<!-- suppression balise description? -->
+	<!-- ajout description -->
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<!-- balise alt sur icone? -->
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -33,17 +31,18 @@
 </head>
 <body>
 <!-- Principal conteneur -->
-<!-- section -->
+<!-- Main -->
 <div class="page-container">
     
 <!-- bloc-0 -->
+<!-- section -->
 <div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<!-- modifier attribut alt? -->
 				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" height="40" /></a>
-				<!-- suppression bouton toggle ou le faire fonctionner? + aria label? -->
+				<!-- suppression bouton toggle ou le faire fonctionner? -->
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -51,7 +50,6 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<!-- rel prev -->
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
@@ -95,12 +93,12 @@
 			<div class="col-sm-6">
 				<!-- écrire les avertissements en francais? -->
 			<!-- W3C error attribut succes msg et fail message non autorisé dans balise form -->
+			<!-- suppression -->
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
 							Nom
 						</label>
-						<!-- Français again? -->
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
