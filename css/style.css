@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -270,6 +270,10 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+}
+
+.image-resize-mode{
+    width: 100px;
 }
 
 .row-no-gutters {
@@ -511,13 +515,12 @@ button {
 }
 
 .scrollToTop {
-    color: white;
     width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 1;
+    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -678,6 +681,7 @@ a {
 }
 
 p {
+    /* passer en 12 px */
     font-size: 12px;
 }
 
@@ -772,15 +776,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #b3400af6;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #b3400af6;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
@@ -811,19 +815,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.webp");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("../img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("../img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1041,6 +1045,3 @@ h4 {
         text-align: center;
     }
 }
-
-/* modifier width de la page contact, accueil à droite non visible et pas besoin de scroller vers le bas */
-/* centrer les éléments de la page contact? */
